@@ -1,0 +1,52 @@
+table {
+    width: 800px;
+    border-spacing: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.number {
+    font-size: 20px;
+    width: 187.5px;
+    text-align: center;
+}
+.pic {
+    width: 187.5px;
+}
+img {
+    width: 60%;
+}
+.name {
+    width: 187.5px;
+    font-size: 20px;
+    text-align: center;
+}
+.cp {
+    width: 187.5px;
+    font-size: 20px;
+    text-align: center;
+}
+section {
+    width: 800px;
+    margin: 0 auto;
+    min-height: 300px;
+    max-height: 300px;
+    border: none;
+    text-align: center;
+}
+footer li:first-child {
+    border-left: 1px solid #E19F0D;
+    border-bottom-left-radius: .5em;
+    border-top-left-radius: .5em;
+}
+footer li:last-child {
+    border-right: 1px solid #E19F0D;
+    border-bottom-right-radius: .5em;
+    border-top-right-radius: .5em;
+}
+footer li:first-child:hover {
+    cursor: text;
+    background: #E19F0D;
+}
+footer p {
+    padding-top: 60px;
+}

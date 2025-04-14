@@ -1,0 +1,50 @@
+table {
+    margin: 20px auto;
+    width: 100%;
+    min-width: 40em;
+    max-width: 60em;
+    border: 1px solid #705f00;
+    border-collapse: collapse;
+}
+table thead tr th {
+    padding: 10px;
+    font-size: 1.2em;
+}
+tfoot th {
+    font-size: 1.2em;
+}
+th, td {
+    box-sizing: border-box;
+    width: 150px;
+    height: 30px;
+    padding: 2px 5px;
+}
+caption {
+    font-size: 1.75em;
+}
+tbody, tr {
+    display: block;
+}
+thead, tfoot {
+    background: #ad7a0a;
+}
+tbody tr:nth-child(odd) {
+    background: #E19F0D;
+}
+tbody th, tbody td, tfoot td {
+    text-align: center;
+}
+td {
+    text-align: right;
+}
+tbody tr:hover {
+    background: #ad7a0a;
+}
+section {
+    width: 800px;
+    margin: 0 auto;
+    min-height: 25px;
+    max-height: 25px;
+    border: none;
+    text-align: center;
+}
