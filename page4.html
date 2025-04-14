@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="utf-8">
+		<title>Final Project - Pokémon GO</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="Pokémon, Pokemon, GO, pogo, final, project, Santa Fe, CGS 1820, web, authoring, auth, evolution, evolve, power-up, power, up, eggs, hatch, team, mystic">
+		<meta name="description" content="Final Project: Pokemon GO for CGS 1820 Web Auth 1 at Santa Fe College by Sangki Jun. A four page website to display the core learnings from the class CGS 1820 at Santa Fe College.">
+		<link href="css/styles.css" rel="stylesheet">
+        <link href="css/page4.css" rel="stylesheet">
+	</head>
+
+    <body>
+        <main>
+            <header>
+                <h1>Final Project: Pokémon GO</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="page2.html">Evolution</a></li>
+                    <li><a href="page3.html">Power-up</a></li>
+                    <li>Eggs</li>
+                </ul>
+            </nav>
+            <form method="post" action="process.php">
+                <div id="one">
+                    <label for="name" class="hidden">Name</label>
+                    <p><input type="text" name="name" id="name" placeholder="Name" autofocus></p>
+                    <label for="date" class="hidden">Date</label>
+                    <p><input type="date" name="date" id="date"></p>
+                    <label for="password" class="hidden">Password</label>
+                    <p><input type="password" name="password" id="password" placeholder="Password"></p>
+                    <label for="phone" class="hidden">Phone Number</label>
+                    <p><input type="tel" name="phone" id="phone" placeholder="Phone Number"></p>
+                    <label for="email" class="hidden">E-mail</label>
+                    <p><input type="email" name="email" id="email" placeholder="E-mail"></p>
+                    <label for="Pokémon" class="hidden">Most Recent Catch</label>
+                    <p><input list="Pokémon" name="catch" id="catch" placeholder="Most Recent Catch"></p>
+                    <datalist id="Pokémon">
+                        <option value="Mewtwo"></option>
+                        <option value="Dialga"></option>
+                        <option value="Palkia"></option>
+                        <option value="Groudon"></option>
+                        <option value="Kyogre"></option>
+                        <option value="Giratina"></option>
+                        <option value="Darkrai"></option>
+                    </datalist>
+                </div>           
+                <div id="two">
+                    <fieldset>
+                    <legend>Party Size</legend>
+                    <p><input type="radio" name="size" id="size1" value="1">
+                    <label for="size1">1</label></p>
+                    <p><input type="radio" name="size" id="size2" value="2">
+                    <label for="size2">2</label></p>
+                    <p><input type="radio" name="size" id="size3" value="3">
+                    <label for="size3">3</label></p>
+                    <p><input type="radio" name="size" id="size4" value="4">
+                    <label for="size4">4</label></p>
+                    </fieldset>
+                    <fieldset>
+                    <legend>Types of Eggs Hatched</legend>
+                    <p><input type="checkbox" name="egg1" id="2km" value="2km">
+                    <label for="2km">2km</label></p>
+                    <p><input type="checkbox" name="egg2" id="5km" value="5km">
+                    <label for="5km">5km</label></p>
+                    <p><input type="checkbox" name="egg3" id="10km" value="10km">
+                    <label for="10km">10km</label></p>
+                    <p><input type="checkbox" name="egg4" id="12km" value="12km">
+                    <label for="12km">12km</label></p>
+                    </fieldset>
+                    <label for="type" class="hidden">Favorite Pokémon Type</label>
+                    <select name="type" id="type">
+                        <option value="" disabled selected>Select Type</option>
+                        <option value="Normal">Normal</option>
+                        <option value="Dragon">Dragon</option>
+                        <option value="Fairy">Fairy</option>
+                        <option value="Dark">Dark</option>
+                        <option value="Ghost">Ghost</option>
+                        <option value="Fighting">Fighting</option>
+                    </select>
+                </div>
+                <input type="submit" value="Submit" name="submit">                                  
+            </form>
+            <footer>
+                <p>&copy; Sangki Bryan Jun. All rights reserved.</p>
+            </footer>
+        </main>
+    </body>
+</html>
